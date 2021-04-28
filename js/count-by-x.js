@@ -7,3 +7,8 @@ function countBy(x, n) {
     }
     return z;
 }
+
+//To add to this solution after reviewing the codewars solutions, I could have let i = 1 and used 1 <= n and then just done z.push( x * i )
+
+
+//As well, another interesting technique would be to use Array.from such as: const countBy = (x, n) => Array.from({length: n}, (v, k) => (k + 1) * x)
